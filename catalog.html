@@ -36,6 +36,11 @@
     </header>
     <main class='main'>
         <aside class='filter'>
+            <h2>фильтр</h2>
+            <div class="priceRange">
+                <span class='priceRangeTitle'>стоимость</span>
+                <input type="range" name="range">
+            </div>
             <article class='colorFilter'>
                 <h2 class='colorTitle'>Цвет</h2>
                 <input type='checkbox' name='color' id='color1'><label for='color1'>Черный</label>
@@ -52,6 +57,14 @@
             </article>
         </aside>
         <section class='product'>
+            <section class='filter'>
+                <h3 class='filterTitle'>Сортировка</h3>
+                <div class="filterItems">
+                    <a href="#" class='filterItem'>По цене</a>
+                    <a href="#" class='filterItem'>По типу</a>
+                    <a href="#" class='filterItem'>По популярности</a>
+                </div>
+            </section>
             <div class='item'>
                 <img src='img/item-1.png' alt='item'>
                 <a href='#'>Любительская селфи-палка</a>
